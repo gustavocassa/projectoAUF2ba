@@ -1,0 +1,6 @@
+@media screen and (max-width: 576px)
+{
+	
+}
+overflow-x: hidden;
+/* ocultar los elementos,que sobresalen dek ancho de la ventana (100w)*/

@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*espacio dentro de cada contenedor*/
+}
+
+body {
+   background: var(--Celeste);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    /*viewport width*/
+    height: 10vh;
+    /*viewport height*/
+    position: fixed;
+    top: 0;
+    left: 0;
+   background: url(../img/aufcabezal-auf.png) no-repeat;
+    /*rgb es la transparencia alpha de la barra de arriba, el 0.5 es eñ valor de transparencia entre 0 y 1*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Saiyajin;
+    z-index: 2;
+}
+
+header {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /*dejar menú */
+    margin: 10px;
+    justify-content: flex-end;
+    /*alinear al final de un contenedor*/
+    align-items: center;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.article-1 {
+    width: 60vw;
+    height: 300vh;
+    margin-left:150px;
+
+
+}
+
+.article-2 {
+    width: 50vw;
+    height: 100vh;
+
+}
+
+.div-1 {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Saiyajin;
+    background: rgba(68, 169, 194, 0.5);
+
+}
+
+.div-2 {
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Saiyajin;
+    background: rgba(68, 169, 194, 0.5);
+
+
+}
+
+@font-face {
+    font-family: Saiyajin;
+    src: url(../fuentes/Comfortaa-Bold.ttf);
+}
+
+article {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 50px;
+}
+
+.div-3 {
+    color: rgb(5, 0, 0);
+    padding-bottom: 5px;
+    font-size: 2em;
+    margin: left 30opx;
+}
+.div-7{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 1em;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: whitesmoke
+}
+
+.robot-ia {
+    animation: robot 1.5s ease-in-out infinite alternate;
+    z-index: 1;
+}
+
+@keyframes robot {
+    from {
+        transform: translateY(75px);
+    }
+
+    to {
+        transform: translateY(125px);
+    }
+}
+
+section, #Inicio, #Llamados, #Registrarse, #Novedades, #Contacto {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: var(--Celeste);*/
+    /*background: url(../img/fondo3.jpg) no-repeat;*/
+    background-size: 100vw 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.menuRegistrarse{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+
+}
+
+
+
+
+.menu1:hover{
+    border:1px solid #fff !important;
+    
+}
+.menu2{
+    border:1px solid #fff ;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.barra-menu, .menu-oculto {
+    display: none;
+    /*ocultar elemento*/
+
+}
+.menu-adaptable{
+    display:none ;
+    flex-direction: column;
+
+}
+
+:root{
+    --Celeste: #5bbad5
+}
+.boton {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid rgb(248, 244, 248);
+    background: rgba(55, 83, 143, 0.5);
+    border-radius: 40px;
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    width: 90px;
+    height:20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}a.boton:hover{outline:none; border:none;}
+
+.menuLlamados{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.contenedorLlamados1, .contenedorLlamados2, .contenedorLlamados3, .contenedorLlamados4{
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background:white;
+    flex-direction: row;
+    cursor:pointer;
+}
+.contenedorLlamados1, .contenedorLlamados2, .contenedorLlamados3, .contenedorLlamados4{
+    margin-top: 100px;
+}
+
+.contenedorLlamados1{
+    background: url(../img/AUF.jpg) center;
+    background-size: cover;
+    filter: blur(1px);
+
+}
+.contenedorLlamados2{
+    background: url(../img/peñarol.jpg);
+    background-size: cover;
+    filter: blur(1px);
+
+}
+.contenedorLlamados3{
+    background: url(../img/progreso.jpg) center;
+    background-size: cover;
+    filter: blur(1px);
+
+}
+.contenedorLlamados4{
+    background: url(../img/wan.jpg) center;
+    background-size: cover;
+    filter: blur(1px);
+
+}
+
+  
+  .scale-up-center {
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
+    -webkit-transition: transform 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    transition: transform 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+}
+
+.scale-up-center:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+
+
+.menuNovedades{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: url(../img/fondo.png) no-repeat;
+
+background-size: cover;
+
+}
+.contenedorNovedades1, .contenedorNovedades2, .contenedorNovedades3{
+    width: 22vw;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing:4px;
+}
+
+.contenedorNovedades1 .texto1, .contenedorNovedades2 .texto1, .contenedorNovedades3 .texto1{
+    width: 20vw;
+    height: 70vh;
+    top: 50%;
+    left: 190px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 12.5px;
+
+   
+}
+
+.contenedorNovedades1:hover .texto1, .contenedorNovedades2:hover .texto1, .contenedorNovedades3:hover .texto1 {
+    opacity: 1;
+}
+  .scale-up-center2 {
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
+    -webkit-transition: transform 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    transition: transform 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+}
+
+.scale-up-center2:hover {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
+

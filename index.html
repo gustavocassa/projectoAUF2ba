@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--declaración-->
+<html lang="es">
+
+<head>
+  <meta name="description" content="Proyecto Diseño Web 2023">
+    <meta name="author" content="Gustavo Cassanello, Rodrigo González, Agusthin Pereira">
+    <link rel="icon" href="img/001-home.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/media.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+         /////desplegar el menu a traves de las barras/////
+        $(document).ready(function(){
+            $(".barra-menu").click(function(){
+                $(".menu-adaptable").slideToggle("slow");
+            });
+        });
+         /////al hacer click ocultar menu adaptable/////
+        $(document).ready(function(){
+            $(".op-menu-oculto").click(function(){
+                $(".menu-adaptable").hide();
+            });
+        });
+
+    </script>
+
+ 
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"
+        charset="utf-8"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="div-1" id="gokussjgod"><img src="../2BA_AUF/img/logo_ai.png" width="100"alt="AUF" title="AUF"></div>
+        <div class="div-2" id="gokussjgodblue">
+            <ul>
+                <li class="opciones"><a href="#Inicio" class="menu1, menu2" style="font-family: Arial, sans-serif; font-size: 22.5px;" >Inicio</a></li>
+                <li class="opciones"><a href="#Llamados" class="menu1" style="font-family: Arial, sans-serif; font-size: 22.5px;" >Llamados</a></li>
+                <li class="opciones"><a href="#Registrarse"class="menu1" style="font-family: Arial, sans-serif; font-size: 22.5px;">Registrarse</a></li>
+                <li class="opciones"><a href="#Novedades"class="menu1" style="font-family: Arial, sans-serif; font-size: 22.5px;" >Novedades</a></li>
+                <li class="opciones"><a href="#Contacto"class="menu1" style="margin-right:100px; font-family: Arial, sans-serif; font-size: 22.5px;" >Contacto</a></li>
+                <li><a href="#barras" class="barra-menu">☰</a></li>
+
+            </ul>
+        </div>
+        <div class="menu-adaptable">
+        <ul class="menu-oculto">
+    <li class="menu-hover"><a class="op-menu-oculto" href="#Inicio">Inicio</a></li>
+    <li class="menu-hover"><a class="op-menu-oculto" href="#Llamados">Llamados</a></li>
+    <li class="menu-hover"><a class="op-menu-oculto" href="#Registrarse">Registrarse</a></li>
+    <li class="menu-hover"><a class="op-menu-oculto" href="#Novedades">Novedades</a></li>
+    <li class="menu-hover"><a class="op-menu-oculto" href="#Contacto">Contacto</a></li>
+</ul>
+        </div>
+    </nav>
+    <header id="Inicio">
+        <article class="article-1">
+            <br><br>
+            <div class="div-3" id="div-3">Asosiación Uruguaya de Futbol (AUF)</div>
+            <p>
+                <br><br>
+                La Asociación Uruguaya de Fútbol (AUF) es el cuerpo gobernante del fútbol de Uruguay. Fue fundada el 30 de marzo de 1900, y es uno de los miembros fundadores de la Conmebol (1916) y miembro de la FIFA desde 1922. 
+                <br><br>
+                Surgió bajo el nombre de Uruguayan Association Football League (UAFL), mientras que en 1905 pasó a llamarse Liga Uruguaya de Football y en 1915 Asociación Uruguaya de Football. Su castellanización llegaría recién en 1970.
+                <br><br>
+                Históricamente la Asociación Uruguaya de Fútbol es el único ente oficial y quien está a cargo de la organización de la selección nacional, así como de los campeonatos oficiales de fútbol.
+            </p>
+            <a href="#Llamados" class="menu1" ><div class="boton">Llamados</div></a>
+
+        </article>
+        <article class="article-2">
+            <img src="../2BA_AUF/img/robot2.png" width=250 height=450 tittle="Robot AI"
+                alt="Imagen de Robot Facherazo" class="robot-ia">
+            <img src="../2BA_AUF/img/base_robot.png" width="300" height="200" alt="Base de Robot"
+                tittle="Base Robot AI">
+
+        </article>
+        
+    </header>
+    <section id="Llamados">
+        <article class="menuLlamados">
+            <h1 style="position: absolute; top: 140px; text-decoration: underline; text-decoration-color:black; font-family: Arial, sans-serif; color:rgba(55, 83, 143, 0.5);">LLAMADOS</h1>
+
+            <br>
+            <div class="contenedorLlamados1 scale-up-center"><a href="https://auf.org.uy" target="_blank">.</a></div>
+            <div class="contenedorLlamados2 scale-up-center"><a href="https://www.peñarol.org/home" target="_blank">.</a></div>
+            <div class="contenedorLlamados3 scale-up-center"><a href="https://www.clubatleticoprogreso.com/" target="_blank">.</a></div>
+            <div class="contenedorLlamados4 scale-up-center"><a href="https://mwfc.com.uy/" target="_blank">.</a></div>
+        </article>
+    </section>
+
+    <section id="Registrarse">
+        <article class="menuRegistrarse">
+            <div class="div-7" id="div-7">
+                <p style="font-size:16px; width:500px;"><img src="../2BA_AUF/img/ubicacion.png" alt="Localización" style="vertical-align: middle; width:40px; height: 40px;"title="Localización">    Localización:Uruguay, Montevideo</p>
+                <br><br>
+                <p style="font-size:16px; width:500px;"><img src="../2BA_AUF/img/email.png" alt="Email" style="vertical-align: middle; width:40px; height: 40px;"title="Correo Electrónico">    Email: llamados@auf.org.uy</p>
+                <br><br>
+                <p style="font-size:16px; width:500px;"><img src=".//img/telefono.png" alt="Teléfono" style="vertical-align: middle; width:40px; height: 40px;"title="Teléfono">   Teléfono: (+598) 2400 7101</p>
+            </div>
+    
+            <style>
+                form {
+                    background-color: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    text-align: center;
+                    margin-left: 250px;
+                    margin-top: 75px;
+                    color: rgba(128, 128, 128, 0.7); /* Letra gris semi transparente */
+                    border: 2px solid rgba(128, 128, 128, 0.7); /* Borde gris semi transparente */
+
+                }
+    
+                label{
+                    display: block;
+                    margin: 0 auto; /* Centra los campos */
+                    width: 260px; /* Ancho igual para ambos campos */
+                    height: 45px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                    border-radius: 10px;
+
+                }
+                input{
+                    padding-left: 10px;;
+                    display: block;
+                    margin: 0 auto; /* Centra los campos */
+                    width: 260px; /* Ancho igual para ambos campos */
+                    height: 45px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                    border-radius: 10px;
+                    border: 2px solid rgba(128, 128, 128, 0.7); /* Borde gris semi transparente */
+
+                }
+
+
+    
+                .grouped-fields {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    margin-left: 15px;
+                }
+    
+                .grouped-fields label {
+                    margin-right: 10px;
+                    margin-bottom: 10px; /* Ajusta el margen inferior */
+                }
+    
+                .wide-field {
+                    width: 525px; /* El ancho de dos etiquetas */
+                    margin-left: 30px;
+                }
+            </style>
+    
+            <form action="procesar.php" method="post">
+                <div class="grouped-fields">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="nombre_apellido" style="margin-left: 15px;">Nombre y Apellido*</label>
+                        <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Marcelo Bielsa" maxlength="40" required style="padding-left: 10px; margin-bottom: 10px;">
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="correo_electronico" style="margin-left: 15px;">Correo Electrónico*</label>
+                        <input type="email" id="correo_electronico" name="correo_electronico" placeholder="llamados@auf.org.uy" maxlength="40"required style="margin-bottom: 10px;">
+                    </div>
+                </div>
+                <br><br>
+    
+                <label class="wide-field" for="cedula">Cédula de Identidad*</label>
+                <input class="wide-field" type="text" id="cedula" name="cedula"  maxlength="9" pattern="[0-9]+" placeholder="55814652 (Máximo de Números 9)" required>
+    
+                <br>
+                <input type="submit" value="Registrarse" style="background: rgb(55, 83, 143); float: left; margin-bottom: 50px; margin-left: 250px; text-align: left; border-radius: 10px; width: 110px; text-align: center; color: rgba(192, 192, 192, 0.7); font-size: 18px;">
+            </form>
+        </article>
+    </section>
+    
+    
+    
+    <section id="Novedades">
+    <article class="menuNovedades">
+        <h1 style="position: absolute; top: 120px; text-decoration: underline; text-decoration-color:black; font-family: Arial, sans-serif; color:white;">NOVEDADES</h1>
+    
+        <div class="contenedorNovedades1 scale-up-center2">
+            <img src="../2BA_AUF/img/lucho.png"  style="width:20vw; height:70vh; border: 1px solid grey; border-radius: 10px;">
+            <div class="texto1">
+                <p>Luis Suárez, nacido el 24 de enero de 1987 en Salto, Uruguay, es un futbolista destacado conocido por su habilidad goleadora y su agresividad en el campo. Ha jugado para clubes como Ajax, Liverpool y Barcelona. Suárez es famoso por sus logros individuales y contribuciones a los éxitos de sus equipos, pero también ha enfrentado controversias, incluidas suspensiones por comportamiento antideportivo. Su carrera incluye títulos de liga, distinciones individuales y un papel clave en la selección uruguaya.</p>
+                <a href="https://auf.org.uy/luis-suarez/" style="text-decoration: none; color: #fff;"></a>
+
+            </div>
+        </div>
+    
+        <div class="contenedorNovedades2 scale-up-center2">
+            <img src="../2BA_AUF/img/forlan.png" style="width:20vw; height:70vh; border: 1px solid grey; border-radius: 10px;">
+            <div class="texto1">
+                <p>Diego Forlán, nacido el 19 de mayo de 1979 en Montevideo, Uruguay, es un exfutbolista destacado. Conocido por su habilidad goleadora, jugó en clubes como Independiente, Villarreal, Atlético de Madrid y Manchester United. Forlán brilló en la Copa Mundial de la FIFA 2010, siendo el máximo goleador y llevando a Uruguay a las semifinales. Recibió el Balón de Oro en 2010 y dejó un legado exitoso en el fútbol nacional e internacional.</p>
+                <a href="https://auf.org.uy/diego-forlan/" style="text-decoration: none; color: #fff;"></a>
+
+            </div>
+        </div>
+    
+        <div class="contenedorNovedades3 scale-up-center2">
+            <img src="../2BA_AUF/img/cavani.png" style="width:20vw; height:70vh; border: 1px solid grey; border-radius: 10px;">
+            <div class="texto1">
+                <p>Edinson Cavani, nacido el 14 de febrero de 1987 en Salto, Uruguay. Delantero destacado, ha jugado en clubes como Palermo, Napoli y Paris Saint-Germain. Conocido por su instinto goleador y ética de trabajo incansable, Cavani también ha sido un pilar importante para la selección uruguaya. Su carrera está marcada por éxitos y goles memorables, consolidándose como uno de los mejores delanteros de su generación.</p>
+                <a href="https://www.auf.org.uy/edinson-cavani/" style="text-decoration: none; color: #fff;"></a>
+
+            </div>
+        </div>
+    </article>
+    
+    </section>
+
+
+
+ 
+
+    <script>
+        $(function () {
+            $('a[href*=#]').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    && location.hostname == this.hostname) {
+                    var $target = $(this.hash);
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                    if ($target.length) {
+                        var targetOffset = $target.offset().top;
+                        $('html,body').animate({ scrollTop: targetOffset }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function() {
+            $('.contenedorLlamados1').click(function() {
+                // Encuentra todos los enlaces dentro del div
+                var enlaces = $(this).find('a');
+    
+                // Abre una nueva pestaña en el navegador para cada enlace
+                for (var i = 0; i < enlaces.length; i++) {
+                    window.open(enlaces[i].href, '_blank');
+                }
+            });
+        });
+    </script>
+<script>
+    $(document).ready(function() {
+        $('.contenedorLlamados2').click(function() {
+            // Encuentra todos los enlaces dentro del div
+            var enlaces = $(this).find('a');
+
+            // Abre una nueva pestaña en el navegador para cada enlace
+            for (var i = 0; i < enlaces.length; i++) {
+                window.open(enlaces[i].href, '_blank');
+            }
+        });
+    });
+</script><script>
+    $(document).ready(function() {
+        $('.contenedorLlamados3').click(function() {
+            // Encuentra todos los enlaces dentro del div
+            var enlaces = $(this).find('a');
+
+            // Abre una nueva pestaña en el navegador para cada enlace
+            for (var i = 0; i < enlaces.length; i++) {
+                window.open(enlaces[i].href, '_blank');
+            }
+        });
+    });
+</script><script>
+    $(document).ready(function() {
+        $('.contenedorLlamados4').click(function() {
+            // Encuentra todos los enlaces dentro del div
+            var enlaces = $(this).find('a');
+
+            // Abre una nueva pestaña en el navegador para cada enlace
+            for (var i = 0; i < enlaces.length; i++) {
+                window.open(enlaces[i].href, '_blank');
+            }
+        });
+    });
+</script>
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $('.contenedorNovedades1').click(function() {
+            // Encuentra todos los enlaces dentro del div
+            var enlaces = $(this).find('a');
+
+            // Abre una nueva pestaña en el navegador para cada enlace
+            for (var i = 0; i < enlaces.length; i++) {
+                window.open(enlaces[i].href, '_blank');
+            }
+        });
+    });
+</script>
+<script>
+$(document).ready(function() {
+    $('.contenedorNovedades2').click(function() {
+        // Encuentra todos los enlaces dentro del div
+        var enlaces = $(this).find('a');
+
+        // Abre una nueva pestaña en el navegador para cada enlace
+        for (var i = 0; i < enlaces.length; i++) {
+            window.open(enlaces[i].href, '_blank');
+        }
+    });
+});
+</script><script>
+$(document).ready(function() {
+    $('.contenedorNovedades3').click(function() {
+        // Encuentra todos los enlaces dentro del div
+        var enlaces = $(this).find('a');
+
+        // Abre una nueva pestaña en el navegador para cada enlace
+        for (var i = 0; i < enlaces.length; i++) {
+            window.open(enlaces[i].href, '_blank');
+        }
+    });
+});
+</script>
+
+
+
+</body>
+
+</html>
